@@ -3,7 +3,7 @@
 
 ## Usage
 
-TODO
+See [`Makefile`](./Makefile). Run the appropriate command as argument to `make` to run the particular experiment.
 
 ## Description of Config Options
 `ckpt_path`: the checkpoint to load if `restore_model` is `True`.

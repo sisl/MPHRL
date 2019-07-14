@@ -1,5 +1,6 @@
 # Model Primitive Hierarchical Lifelong Reinforcement Learning
 
+Code to reproduce experiments from https://arxiv.org/abs/1903.01567
 
 ## Usage
 
@@ -91,3 +92,18 @@ or just the stage information of the current box
 `num_batches`: number of training batches per task
 
 `mov_avg`: moving average calculation of accuracies, etc. 
+
+## Citing
+
+If you found this useful, consider citing:
+
+```
+@inproceedings{wu2019model,
+  title={Model Primitive Hierarchical Lifelong Reinforcement Learning},
+  author={Wu, Bohan and Gupta, Jayesh K and Kochenderfer, Mykel J},
+  booktitle={Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems},
+  pages={34--42},
+  year={2019},
+  organization={International Foundation for Autonomous Agents and Multiagent Systems}
+}
+```
